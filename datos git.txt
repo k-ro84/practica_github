@@ -1,0 +1,30 @@
+
+K-RITO@K-RITO-PC MINGW32 ~
+$ git --version
+git version 2.33.0.windows.2
+
+K-RITO@K-RITO-PC MINGW32 ~
+$ git config --global user.name "Carolina Olguin"
+
+K-RITO@K-RITO-PC MINGW32 ~
+$ git config --global user.email "k-rito469@hotmail.com"
+
+K-RITO@K-RITO-PC MINGW32 ~
+$ git config --list
+pack.packsizelimit=2g
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw32/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Carolina Olguin
+user.email=k-rito469@hotmail.com
